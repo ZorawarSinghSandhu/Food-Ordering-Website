@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #ff8600;
+    display:flex;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    height: 57px;
+    margin-left: 0;
+}
+
+#brand-logo{
+    margin-right: 10px;
+    margin-top: 9px;
+    margin-right: 0;
+}
+
+#title{
+    display: flex;
+    position: absolute;
+    left: 80px;
+}
+
+#search-box{
+    position: absolute;
+    left: 724px;
+    top: 14px;
+}
+
+#search-box input{
+    height: 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 173px;
+    border: 1px solid;
+    text-align: center;
+}
+
+
+
+#menu button{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: absolute;
+    right: 240px;
+    height: 29px;
+    top: 14px;
+    padding: 0;
+    width: 62px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#menu button h3{
+    color: #ff8600;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+
+.menu-content {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .menu-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-content ul li {
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  
+  .menu-content ul li:hover {
+    background-color: #ddd;
+  }
+  
+
+
+#Login {
+    position: relative;
+    width: 100%; /* Ensure it takes the full width */
+    height: 100%; /* Ensure it takes the full height */
+}
+
+#Login .login-button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background: none;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    right: 134px;
+    top: 9px;
+    width: 86px; /* Adjust for content */
+    height: 38px; /* Adjust for content */
+}
+
+#Login .login-button p {
+    margin: 0;
+    padding-left: 3px;
+    font-weight: 600;
+}
+
+
+
+
+#Sign-up {
+    position: relative; /* Ensure the absolute positioning inside this container is relative to it */
+}
+
+#Sign-up button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 18px;
+    position: absolute;
+    right: 45px;
+    width: 73px;
+    height: 38px;
+    top: 9px;
+    cursor: pointer; /* Makes it clear it's a clickable element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Removes default padding */
+}
+
+#Sign-up button p {
+    font-weight: 600;
+    margin: 5px 0px;
+    color: white;
+    pointer-events: none; /* Ensures the text itself does not block the button click */
+}
+
+
+#background-image{
+    object-fit: fill;
+}
+
+.home{
+    background-image: url("https://img.freepik.com/premium-photo/table-full-food-including-rice-curry-plate-food_900958-7307.jpg?w=1380");
+
+    height: 89vh;
+
+    position: relative;
+}
+
+#address{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+
+
+
